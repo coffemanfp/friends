@@ -1,24 +1,38 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Friends
 
-Things you may want to cover:
+I hope you have some Friends because this app can definitely list all your friends without any issue.
 
-* Ruby version
+This is a Ruby On Rails practice project. I had been developing this project along side to the [Learn Ruby on Rails - Full Course](https://www.youtube.com/watch?v=fmyvWz5TUWg) from [FreeCodeCamp](https://freecodecamp.org/). 
 
-* System dependencies
 
-* Configuration
+## Authors
 
-* Database creation
+- I, me and myself: [@coffemanfp](https://www.github.com/coffemanfp)
 
-* Database initialization
 
-* How to run the test suite
+## Features
 
-* Services (job queues, cache servers, search engines, etc.)
+- CRUD Friends
+- Full user authentication, registration and account recovery
+- Made with love
 
-* Deployment instructions
 
-* ...
+## Installation
+
+You can clone this repository and run the following commands:
+
+#### Clone the repository:
+`git clone git@github.com:coffemanfp/friends.git`
+
+#### Switch to the new folder:
+`cd friends`
+
+#### Install the dependencies:
+`bundle install`
+
+#### Run db migrations:
+`rails db:migrate`
+
+#### You're ready to go! Turn on the server:
+`rails server`
